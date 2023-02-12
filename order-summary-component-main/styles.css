@@ -1,0 +1,128 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    width: 100vh;
+    height: 100vh;
+    margin: auto;
+    font-family: "Red Hat Display";
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+}
+
+.card {
+width: 450px;
+background-color: white;
+border-radius: 20px;
+padding-bottom: 50px;
+margin-bottom: 20px;
+
+}
+
+.card-component {
+align-content: center;
+align-items: center;
+margin: auto;
+padding: 0%;
+box-shadow: black;
+}
+
+.image {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.hero {
+    text-align: center;
+}
+
+h1 {
+font-family: "Red Hat Display";
+font-size: 35px;
+font-weight: 900;
+}
+
+.longtext {
+font-size: 16px;
+font-weight: 500;
+color: hsl(0, 0%, 54%);
+width: 300px;
+text-align: center;
+margin: auto;
+}
+
+.plan {
+width: 85%;
+height: 100px;
+border-radius: 20px;
+margin: 30px auto;
+background-color: rgb(248, 248, 248);
+display: flex;
+position: relative;
+align-content: center;
+align-items: center;
+justify-content: space-around
+}
+
+.text-plan {
+margin: auto 20px;
+align-items: center;
+display: block;
+}
+
+.icon {
+margin: auto 15px;
+}
+
+.change-plan {
+text-decoration-color: hsl(245, 75%, 52%);
+}
+
+.proceed {
+font-family: "Red Hat Display";
+font-size: 15px;
+font-weight: 900;
+margin: auto;
+display: block;
+align-items: center;
+width: 85%;
+height: 55px;
+border: none;
+border-radius: 15px;
+box-shadow: hsl(245, 75%, 52%);
+color: white;
+background-color: hsl(245, 75%, 52%);
+}
+
+.proceed:hover {
+background-color: rgb(85, 85, 255);
+transform: scale(1.02);
+}
+
+.proceed:active {
+cursor: pointer;
+}
+
+.cancel {
+margin: auto;
+text-align: center;
+display: block;
+font-weight: 800;
+font-size: 15px;
+color: rgb(137, 137, 137);
+}
+
+.cancel:hover {
+    cursor: default;
+    }
+
+.cancel:active {
+cursor: pointer;
+}
